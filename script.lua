@@ -45,8 +45,6 @@ local Open = Instance.new("TextButton")
 local UIStroke_21 = Instance.new("UIStroke")
 local UIStroke_22 = Instance.new("UIStroke")
 
--- Properties:
-
 GuiTools.Name = "GuiTools"
 GuiTools.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
@@ -155,7 +153,7 @@ _2.Parent = Frame
 _2.BackgroundColor3 = Color3.fromRGB(134, 134, 134)
 _2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 _2.BorderSizePixel = 0
-_2.Position = UDim2.new(0.55533427, 0, 0.199842989, 0)
+_2.Position = UDim2.new(0.55533427, 0, 0.259625554, 0)
 _2.Size = UDim2.new(0, 99, 0, 23)
 _2.Font = Enum.Font.Unknown
 _2.Text = "NO GUI AutoParry"
@@ -336,7 +334,7 @@ UIStroke_22.Parent = Open
 
 -- Scripts:
 
-local function QFDPTMB_fake_script() -- Minimize.LocalScript 
+local function BAXJ_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -344,8 +342,8 @@ local function QFDPTMB_fake_script() -- Minimize.LocalScript
 		script.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(QFDPTMB_fake_script)()
-local function IPYQMRT_fake_script() -- _1.LocalScript 
+coroutine.wrap(BAXJ_fake_script)()
+local function STBBLK_fake_script() -- _1.LocalScript 
 	local script = Instance.new('LocalScript', _1)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -353,8 +351,8 @@ local function IPYQMRT_fake_script() -- _1.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(IPYQMRT_fake_script)()
-local function VDCVMUU_fake_script() -- _2.LocalScript 
+coroutine.wrap(STBBLK_fake_script)()
+local function MHQKLS_fake_script() -- _2.LocalScript 
 	local script = Instance.new('LocalScript', _2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -362,8 +360,8 @@ local function VDCVMUU_fake_script() -- _2.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(VDCVMUU_fake_script)()
-local function UNLWL_fake_script() -- _3.LocalScript 
+coroutine.wrap(MHQKLS_fake_script)()
+local function PYSZZMY_fake_script() -- _3.LocalScript 
 	local script = Instance.new('LocalScript', _3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -371,16 +369,16 @@ local function UNLWL_fake_script() -- _3.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(UNLWL_fake_script)()
-local function IKGVB_fake_script() -- Close.LocalScript 
+coroutine.wrap(PYSZZMY_fake_script)()
+local function FCXCLUT_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(IKGVB_fake_script)()
-local function TUYDXU_fake_script() -- Frame.DragScript 
+coroutine.wrap(FCXCLUT_fake_script)()
+local function SCRNCNP_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService('UserInputService')
@@ -419,8 +417,8 @@ local function TUYDXU_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(TUYDXU_fake_script)()
-local function MNUR_fake_script() -- _4.LocalScript 
+coroutine.wrap(SCRNCNP_fake_script)()
+local function PVBZ_fake_script() -- _4.LocalScript 
 	local script = Instance.new('LocalScript', _4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -429,8 +427,8 @@ local function MNUR_fake_script() -- _4.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(MNUR_fake_script)()
-local function OHSQ_fake_script() -- _5.LocalScript 
+coroutine.wrap(PVBZ_fake_script)()
+local function NBHIK_fake_script() -- _5.LocalScript 
 	local script = Instance.new('LocalScript', _5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -439,8 +437,8 @@ local function OHSQ_fake_script() -- _5.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(OHSQ_fake_script)()
-local function DPOAB_fake_script() -- _6.LocalScript 
+coroutine.wrap(NBHIK_fake_script)()
+local function PRUJ_fake_script() -- _6.LocalScript 
 	local script = Instance.new('LocalScript', _6)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -449,8 +447,8 @@ local function DPOAB_fake_script() -- _6.LocalScript
 		print("Executed Script!")
 	end)
 end
-coroutine.wrap(DPOAB_fake_script)()
-local function DNXR_fake_script() -- Open.DragScript 
+coroutine.wrap(PRUJ_fake_script)()
+local function FDVZFS_fake_script() -- Open.DragScript 
 	local script = Instance.new('LocalScript', Open)
 
 	local UIS = game:GetService('UserInputService')
@@ -489,8 +487,8 @@ local function DNXR_fake_script() -- Open.DragScript
 	end)
 	
 end
-coroutine.wrap(DNXR_fake_script)()
-local function XHJK_fake_script() -- Open.LocalScript 
+coroutine.wrap(FDVZFS_fake_script)()
+local function YBLEO_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -498,4 +496,4 @@ local function XHJK_fake_script() -- Open.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(XHJK_fake_script)()
+coroutine.wrap(YBLEO_fake_script)()
